@@ -1,21 +1,21 @@
 # Form Validation Project
 
-This is a simple frontend form validation project built using HTML, CSS, and JavaScript.
+A simple web application that validates user input using JavaScript.
 
 ## Features
-- Validates name, email, and password fields
-- Displays error messages dynamically
-- Highlights valid and invalid inputs
-- Prevents form submission if inputs are incorrect
+- Input validation for name, email, and password
+- Error messages for invalid input
+- Success message on correct submission
 
 ## Technologies Used
-- HTML5
-- CSS3
-- JavaScript (DOM Manipulation)
+- HTML
+- CSS
+- JavaScript (Form validation, DOM)
 
 ## Live Demo
 https://milana-nayak.github.io/Form-Validation-Project/
 
-## Author
-Milana Nayak
-
+## Key Concepts
+- Client-side validation
+- DOM manipulation
+- Event handling
