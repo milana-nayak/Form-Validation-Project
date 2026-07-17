@@ -96,3 +96,11 @@ small{
 }
 
 }
+.strength{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+#strength-text{
+    font-weight:bold;
+}
