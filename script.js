@@ -1,5 +1,5 @@
 const form = document.getElementById("signupForm");
-
+const strengthText = document.getElementById("strength-text");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const phoneInput = document.getElementById("phone");
@@ -97,6 +97,40 @@ showPassword.addEventListener("change",function(){
 
         passwordInput.type="password";
         confirmPasswordInput.type="password";
+
+    }
+
+});
+passwordInput.addEventListener("input", function(){
+
+    const password = passwordInput.value;
+
+    if(password.length < 6){
+
+        strengthText.textContent = "🔴 Weak";
+        strengthText.style.color = "red";
+
+    }
+    else if(
+        /[A-Z]/.test(password) &&
+        /[0-9]/.test(password)
+    ){
+
+        strengthText.textContent = "🟡 Medium";
+        strengthText.style.color = "orange";
+
+    }
+
+    if(
+        password.length >= 8 &&
+        /[A-Z]/.test(password) &&
+        /[a-z]/.test(password) &&
+        /[0-9]/.test(password) &&
+        /[!@#$%^&*]/.test(password)
+    ){
+
+        strengthText.textContent = "🟢 Strong";
+        strengthText.style.color = "green";
 
     }
 
