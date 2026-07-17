@@ -1,21 +1,57 @@
-# Form Validation Project
+# 📝 Form Validation
 
-A simple web application that validates user input using JavaScript.
+A responsive Form Validation web application built using **HTML, CSS, and JavaScript**. This project validates user input before form submission and provides real-time feedback for a better user experience.
 
-## Features
-- Input validation for name, email, and password
-- Error messages for invalid input
-- Success message on correct submission
+## 🚀 Live Demo
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (Form validation, DOM)
+👉 https://milana-nayak.github.io/Form-Validation/
 
-## Live Demo
-https://milana-nayak.github.io/Form-Validation-Project/
+## 📌 Features
 
-## Key Concepts
-- Client-side validation
-- DOM manipulation
-- Event handling
+- ✅ Full Name Validation
+- ✅ Email Validation
+- ✅ Phone Number Validation
+- ✅ Password Validation
+- ✅ Confirm Password Validation
+- ✅ Password Strength Meter
+- ✅ Show / Hide Password
+- ✅ Success & Error Messages
+- ✅ Responsive Design
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## 📂 Project Structure
+
+```
+Form-Validation/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+```
+
+## 💡 What I Learned
+
+- Form Validation using JavaScript
+- DOM Manipulation
+- Regular Expressions (Regex)
+- Event Handling
+- Password Strength Logic
+- Responsive Web Design
+
+## 🎯 Future Improvements
+
+- Dark Mode
+- Login Form
+- Backend Integration
+- Database Support
+
+## 👩‍💻 Author
+
+**Milana Nayak**
+
+GitHub: https://github.com/milana-nayak
